@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / web
+node_modules/
+.next/
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Local outputs and caches
+outputs/
+results/
+logs/
+cache/
+tmp/
+temp/
+
+# Private / proprietary data
+data/private/
+data/raw/
+private/
+confidential/
+enbridge_data/
+
+# OS
+.DS_Store
+Thumbs.db
