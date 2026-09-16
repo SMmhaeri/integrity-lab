@@ -1,13 +1,13 @@
 # Integrity Lab Release Checklist
 
-Use this checklist before publishing a new packaged build.
+Use this checklist before making a packaged build publicly accessible.
 
 ## 1. Confidentiality and data
 
-- Confirm the package contains no proprietary Enbridge ILI datasets unless explicit redistribution permission exists.
-- Confirm no private supervisor/industry files are bundled.
-- Confirm no API keys, tokens, passwords, `.env` files, private keys, or local credentials are present.
-- Confirm any demonstration data are synthetic, public, or explicitly redistributable.
+- Confirm the package contains no proprietary industry ILI datasets unless explicit redistribution permission exists.
+- Confirm no private supervisor, collaborator, or industry files are bundled.
+- Confirm no API keys, tokens, passwords, `.env` files, private keys, local credentials, or machine-specific secrets are present.
+- Confirm demonstration data are synthetic, public, or explicitly redistributable.
 
 ## 2. Package integrity
 
@@ -24,17 +24,16 @@ Use this checklist before publishing a new packaged build.
 - Document the release version and date.
 - Record any known limitations.
 
-## 4. GitHub Release
-
-Recommended release format:
+## 4. Current research release
 
 ```text
 Tag:          v1.0.0
 Title:        Integrity Lab v1.0.0 — Research Release
-Asset:        IntegrityLab_Supervisor_Release.zip
+Asset:        IntegrityLab.zip
+SHA-256:      340db243570d7e04b32b964789483986afd19e28b79d2a12cf954ec3574ce383
 ```
 
-Attach the complete ZIP as a **GitHub Release asset** rather than committing the bundled runtime to ordinary Git history.
+The complete packaged ZIP is distributed as a **GitHub Release asset** rather than committing the bundled runtime to ordinary Git history.
 
 ## 5. Licensing
 
