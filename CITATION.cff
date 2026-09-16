@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use Integrity Lab in academic work, please cite the software repository and the associated research publication where appropriate."
+title: "Integrity Lab"
+type: software
+authors:
+  - family-names: "Haeri"
+    given-names: "Seyyed Mohammad Mojtahed"
+repository-code: "https://github.com/SMmhaeri/integrity-lab"
+version: "1.0.0"
+date-released: "2026-09-16"
